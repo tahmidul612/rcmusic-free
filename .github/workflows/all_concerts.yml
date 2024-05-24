@@ -16,19 +16,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.11"
-        cache: 'pip'
-        
-    - name: AutoSync branches
-      uses: danielthedifficult/Action-AutoSync-Branches@v1.0.0
-      env:
-        AUTOSYNC_FROM: main
-        AUTOSYNC_TO: actions
-        
-    - uses: actions/checkout@v4
       with:
         ref: actions
         
