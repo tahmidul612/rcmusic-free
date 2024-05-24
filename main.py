@@ -8,6 +8,7 @@ from pathlib import Path
 import os
 import pytz
 
+EVENT_WEBPAGE_URL = "https://www.rcmusic.com/ggs/master-classes-and-performances/student-recitals-and-community-performances"
 
 def remove_escape_chars(table_json):
     for row in table_json:
@@ -19,12 +20,18 @@ def remove_escape_chars(table_json):
 
 def create_ics(table_json):
     cal = Calendar()
-    cal.add('prodid', '-//The Royal Conservatory Student Recitals//www.rcmusic.com//')
+    cal.add('prodid', '-//The Royal Conservatory Student Recitals and Community Performances//www.rcmusic.com//')
     cal.add('version', '2.0')
+    cal.add('calscale', 'GREGORIAN')
+    cal.add('method', 'PUBLISH')
+    cal.add('X-WR-CALNAME', 'The Royal Conservatory Concerts')
+    cal.add('X-WR-TIMEZONE', 'America/Toronto')
+    
     for entry in table_json:
         event = Event()
-        event.add('summary', entry['Artist & Discipline'])
+        event.add('name', entry['Artist & Discipline'])
         event['location'] = vText(entry['Location'])
+        event.add('description', EVENT_WEBPAGE_URL)
         start_time = datetime.strptime(entry['Date & Time'], '%A, %B %d %I:%M%p').replace(
             tzinfo=pytz.timezone('America/Toronto')).replace(year=datetime.now().year)
         event.add('dtstart', start_time)
@@ -46,9 +53,7 @@ def create_ics(table_json):
 
 
 def main():
-    url = "https://www.rcmusic.com/ggs/master-classes-and-performances/student-recitals-and-community-performances"
-
-    html_doc = requests.get(url).text
+    html_doc = requests.get(EVENT_WEBPAGE_URL).text
     soup = BeautifulSoup(html_doc, 'html.parser')
 
     # Add table tag to the html (helps html_to_json to parse the table)
