@@ -29,7 +29,7 @@ def create_ics(table_json):
     
     for entry in table_json:
         event = Event()
-        event.add('name', entry['Artist & Discipline'])
+        event.add('summary', entry['Artist & Discipline'])
         event['location'] = vText(entry['Location'])
         event.add('description', EVENT_WEBPAGE_URL)
         start_time = datetime.strptime(entry['Date & Time'], '%A, %B %d %I:%M%p').replace(
