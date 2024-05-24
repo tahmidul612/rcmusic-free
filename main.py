@@ -29,7 +29,7 @@ def create_ics(table_json):
         cal.add_component(event)
 
     # Write to disk
-    directory = Path.cwd() / 'Calendar'
+    directory = Path.cwd() / 'calendars'
     try:
         directory.mkdir(parents=True, exist_ok=False)
     except FileExistsError:
