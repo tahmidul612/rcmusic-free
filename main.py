@@ -40,12 +40,7 @@ def create_ics(table_json):
 
     # Write to disk
     directory = Path.cwd() / 'calendars'
-    try:
-        directory.mkdir(parents=True, exist_ok=False)
-    except FileExistsError:
-        print("Folder already exists")
-    else:
-        print("Folder was created")
+    directory.mkdir(parents=True, exist_ok=False)
 
     f = open(os.path.join(directory, 'all_concerts.ics'), 'wb')
     f.write(cal.to_ical())
