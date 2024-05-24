@@ -1,0 +1,5 @@
+beautifulsoup4==4.12.3
+html_to_json==2.0.0
+icalendar==5.0.12
+pytz==2024.1
+Requests==2.32.2
