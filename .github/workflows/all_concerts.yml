@@ -31,5 +31,8 @@ jobs:
           git merge main --no-edit
           git push
           python main.py
-          git diff-index --quiet HEAD || git commit -am "calendar update"
-          git push
+          git add -A
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "calendar update"
+            git push
+          fi
