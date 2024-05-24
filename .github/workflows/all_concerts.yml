@@ -16,10 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
-      - uses: actions/checkout@v4
-        with:
-          ref: actions
           fetch-depth: '0'
 
 
@@ -29,9 +25,10 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: ics
         run: |
+          git checkout actions
+          git merge origin/main --no-edit
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git merge origin/main --no-edit
           python main.py
           git add .
           git commit -m "calendar update"
