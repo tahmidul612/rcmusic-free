@@ -40,7 +40,7 @@ def create_ics(table_json):
 
     # Write to disk
     directory = Path.cwd() / 'calendars'
-    directory.mkdir(parents=True, exist_ok=False)
+    directory.mkdir(parents=True, exist_ok=True)
 
     f = open(os.path.join(directory, 'all_concerts.ics'), 'wb')
     f.write(cal.to_ical())
