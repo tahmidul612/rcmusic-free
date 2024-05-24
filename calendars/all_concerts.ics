@@ -271,14 +271,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Simon Gidora\, baritone
-DTSTART;TZID=America/Toronto:20240525T173000
-DTEND;TZID=America/Toronto:20240525T183000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Marie Conceição\, mezzo-soprano
 DTSTART;TZID=America/Toronto:20240525T200000
 DTEND;TZID=America/Toronto:20240525T210000
@@ -322,6 +314,14 @@ BEGIN:VEVENT
 SUMMARY:Chae Yeon (Chelsea) Ahn\, piano
 DTSTART;TZID=America/Toronto:20240527T200000
 DTEND;TZID=America/Toronto:20240527T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Simon Gidora\, baritone
+DTSTART;TZID=America/Toronto:20240530T183000
+DTEND;TZID=America/Toronto:20240530T193000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
