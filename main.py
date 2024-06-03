@@ -54,19 +54,26 @@ def main():
     # Add table tag to the html (helps html_to_json to parse the table)
     table_html = "<table>\n"
     # Find ar tr (table row) tags and add them to the table_html
-    for row in soup.find_all("tr"):
-        table_html += str(row)
-    table_html += "\n</table>"
+    rows = soup.find_all("tr")
+    if rows:
+        for row in rows:
+            table_html += str(row)
+        table_html += "\n</table>"
 
-    # Convert the table_html to json
-    # table_json is a list of dictionaries (each list is a row in the table)
-    # Each dictionary has three keys: "Date & Time", "Location", and "Artist & Discipline"
+        # Convert the table_html to json
+        # table_json is a list of dictionaries (each list is a row in the table)
+        # Each dictionary has three keys: "Date & Time", "Location", and "Artist & Discipline"
 
-    table_json = remove_escape_chars(
-        html_to_json.convert_tables(table_html)[0])
+        table_json = remove_escape_chars(
+            html_to_json.convert_tables(table_html)[0])
 
-    # Create the ics file
-    create_ics(table_json)
+        # Create the ics file
+        create_ics(table_json)
+        print("Successfully created the ics file.")
+        return True
+    else:
+        print("No concerts found on the webpage.")
+        return False
 
 
 if __name__ == '__main__':
