@@ -7,16 +7,34 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import os
 import pytz
+import logging
 
 EVENT_WEBPAGE_URL = "https://www.rcmusic.com/ggs/master-classes-and-performances/student-recitals-and-community-performances"
+
+# setup logging
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 def remove_escape_chars(table_json):
     for row in table_json:
         for key in row:
             row[key] = re.sub(
                 '\s+', ' ', bytes(str(row[key]), 'utf-8').decode('utf-8'))
+            row[key] = row[key].replace("\u200b", " ")
     return table_json
 
+
+def parse_date(date_str):
+    formats = ["%A, %B %d %I:%M%p", "%A, %B %d, %Y %I:%M%p"]
+    for fmt in formats:
+        try:
+            date = datetime.strptime(date_str, fmt).replace(
+                tzinfo=pytz.timezone('America/Toronto'))
+            return date if '%Y' in fmt else date.replace(year=datetime.now().year)
+        except ValueError:
+            continue
+    raise ValueError(
+        f"Date string '{date_str}' does not match any of the formats: {formats}")
 
 def create_ics(table_json):
     cal = Calendar()
@@ -28,15 +46,24 @@ def create_ics(table_json):
     cal.add('X-WR-TIMEZONE', 'America/Toronto')
     
     for entry in table_json:
+        if not entry:
+            continue
         event = Event()
-        event.add('summary', entry['Artist & Discipline'])
-        event['location'] = vText(entry['Location'])
-        event.add('description', EVENT_WEBPAGE_URL)
-        start_time = datetime.strptime(entry['Date & Time'], '%A, %B %d %I:%M%p').replace(
-            tzinfo=pytz.timezone('America/Toronto')).replace(year=datetime.now().year)
-        event.add('dtstart', start_time)
-        event.add('dtend', start_time + timedelta(hours=1))
-        cal.add_component(event)
+        try:
+            event.add('summary', entry['Artist & Discipline'])
+            event['location'] = vText(entry['Location'])
+            event.add('description', EVENT_WEBPAGE_URL)
+            start_time = parse_date(entry['Date & Time'])
+        except KeyError:
+            logger.error("KeyError: %s", entry)
+        except ValueError:
+            logger.error("ValueError: %s", entry)
+        except Exception as e:
+            continue
+        else:
+            event.add('dtstart', start_time)
+            event.add('dtend', start_time + timedelta(hours=1))
+            cal.add_component(event)
 
     # Write to disk
     directory = Path.cwd() / 'calendars'
