@@ -7,9 +7,905 @@ METHOD:PUBLISH
 X-WR-CALNAME:The Royal Conservatory Concerts
 X-WR-TIMEZONE:America/Toronto
 BEGIN:VEVENT
-SUMMARY:Tiffany Tsai\, Violin
-DTSTART;TZID=America/Toronto:20240614T200000
-DTEND;TZID=America/Toronto:20240614T210000
+SUMMARY: Eric Guo\, piano 
+DTSTART;TZID=America/Toronto:20250202T180000
+DTEND;TZID=America/Toronto:20250202T190000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Joelle Crigger\, violin 
+DTSTART;TZID=America/Toronto:20250301T200000
+DTEND;TZID=America/Toronto:20250301T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Hon Yu (Richard) Wong\, piano 
+DTSTART;TZID=America/Toronto:20250314T200000
+DTEND;TZID=America/Toronto:20250314T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Elina Yuma\, violin
+DTSTART;TZID=America/Toronto:20250316T200000
+DTEND;TZID=America/Toronto:20250316T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Audrey Morris\, harp
+DTSTART;TZID=America/Toronto:20250317T200000
+DTEND;TZID=America/Toronto:20250317T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nickolas Warwick\, violin
+DTSTART;TZID=America/Toronto:20250322T173000
+DTEND;TZID=America/Toronto:20250322T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jerry Hu\, piano
+DTSTART;TZID=America/Toronto:20250325T190000
+DTEND;TZID=America/Toronto:20250325T200000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Graham Lumsden\, trumpet
+DTSTART;TZID=America/Toronto:20250327T143000
+DTEND;TZID=America/Toronto:20250327T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Craig Swink\, clarinet
+DTSTART;TZID=America/Toronto:20250327T173000
+DTEND;TZID=America/Toronto:20250327T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Robyn Lianne Cheng\, viola
+DTSTART;TZID=America/Toronto:20250327T200000
+DTEND;TZID=America/Toronto:20250327T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adriana Da\, soprano
+DTSTART;TZID=America/Toronto:20250330T143000
+DTEND;TZID=America/Toronto:20250330T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Avery Hubert\, horn
+DTSTART;TZID=America/Toronto:20250331T200000
+DTEND;TZID=America/Toronto:20250331T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Shin Tanaka\, bass trombone 
+DTSTART;TZID=America/Toronto:20250401T180000
+DTEND;TZID=America/Toronto:20250401T190000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: CMira Kardan\, cello 
+DTSTART;TZID=America/Toronto:20250401T200000
+DTEND;TZID=America/Toronto:20250401T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Luke Lee\, violin
+DTSTART;TZID=America/Toronto:20250403T143000
+DTEND;TZID=America/Toronto:20250403T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Derrick Giuntini\, violin
+DTSTART;TZID=America/Toronto:20250403T173000
+DTEND;TZID=America/Toronto:20250403T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Solchan Kim\, viola
+DTSTART;TZID=America/Toronto:20250403T200000
+DTEND;TZID=America/Toronto:20250403T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shyler Macaggi\, viola
+DTSTART;TZID=America/Toronto:20250405T200000
+DTEND;TZID=America/Toronto:20250405T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Isabella Wark\, flute
+DTSTART;TZID=America/Toronto:20250406T173000
+DTEND;TZID=America/Toronto:20250406T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Suraya Gade\, harp
+DTSTART;TZID=America/Toronto:20250406T200000
+DTEND;TZID=America/Toronto:20250406T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Meghan Linnington\, mezzo-soprano
+DTSTART;TZID=America/Toronto:20250406T200000
+DTEND;TZID=America/Toronto:20250406T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cameron Breiter\, double bass
+DTSTART;TZID=America/Toronto:20250408T200000
+DTEND;TZID=America/Toronto:20250408T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Charles ROberts\, piano
+DTSTART;TZID=America/Toronto:20250409T153000
+DTEND;TZID=America/Toronto:20250409T163000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ayşe Çolak\, horn
+DTSTART;TZID=America/Toronto:20250409T173000
+DTEND;TZID=America/Toronto:20250409T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Yelin Youn\, flute
+DTSTART;TZID=America/Toronto:20250409T200000
+DTEND;TZID=America/Toronto:20250409T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rowan Sawarna-Small. piano
+DTSTART;TZID=America/Toronto:20250410T120000
+DTEND;TZID=America/Toronto:20250410T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Charlotte Anderson\, soprano
+DTSTART;TZID=America/Toronto:20250410T143000
+DTEND;TZID=America/Toronto:20250410T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mary Deck\, viola
+DTSTART;TZID=America/Toronto:20250410T170000
+DTEND;TZID=America/Toronto:20250410T180000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sua Kwoun\, cello
+DTSTART;TZID=America/Toronto:20250412T173000
+DTEND;TZID=America/Toronto:20250412T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Yen-Han Chen\, clarinet
+DTSTART;TZID=America/Toronto:20250412T200000
+DTEND;TZID=America/Toronto:20250412T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Carrie Wang\, violin
+DTSTART;TZID=America/Toronto:20250413T120000
+DTEND;TZID=America/Toronto:20250413T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leandra Dahm\, soprano
+DTSTART;TZID=America/Toronto:20250413T143000
+DTEND;TZID=America/Toronto:20250413T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tiffany Yeung\, violin
+DTSTART;TZID=America/Toronto:20250413T173000
+DTEND;TZID=America/Toronto:20250413T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Andrew Busch\, percussion
+DTSTART;TZID=America/Toronto:20250413T200000
+DTEND;TZID=America/Toronto:20250413T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grace Wride\, violin
+DTSTART;TZID=America/Toronto:20250413T200000
+DTEND;TZID=America/Toronto:20250413T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Maria Jojatu\, violin
+DTSTART;TZID=America/Toronto:20250414T143000
+DTEND;TZID=America/Toronto:20250414T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Audrey Franssen Keenan\, soprano
+DTSTART;TZID=America/Toronto:20250414T173000
+DTEND;TZID=America/Toronto:20250414T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ilan Mendel\, trombine
+DTSTART;TZID=America/Toronto:20250414T200000
+DTEND;TZID=America/Toronto:20250414T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tatyana Gilson\, violin
+DTSTART;TZID=America/Toronto:20250415T120000
+DTEND;TZID=America/Toronto:20250415T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Karri Li\, flute
+DTSTART;TZID=America/Toronto:20250415T143000
+DTEND;TZID=America/Toronto:20250415T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ehrentraud Moser\, violin
+DTSTART;TZID=America/Toronto:20250415T173000
+DTEND;TZID=America/Toronto:20250415T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Constance Prost\, trombone
+DTSTART;TZID=America/Toronto:20250415T200000
+DTEND;TZID=America/Toronto:20250415T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gordon Fry\, percussion
+DTSTART;TZID=America/Toronto:20250416T173000
+DTEND;TZID=America/Toronto:20250416T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lexie Krakowski\, cello
+DTSTART;TZID=America/Toronto:20250416T200000
+DTEND;TZID=America/Toronto:20250416T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lucy Gelber\, viola
+DTSTART;TZID=America/Toronto:20250417T143000
+DTEND;TZID=America/Toronto:20250417T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colin Chang\, piano
+DTSTART;TZID=America/Toronto:20250417T173000
+DTEND;TZID=America/Toronto:20250417T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Georgia Wang\, piano
+DTSTART;TZID=America/Toronto:20250417T200000
+DTEND;TZID=America/Toronto:20250417T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mio Nakajo\, violin
+DTSTART;TZID=America/Toronto:20250419T120000
+DTEND;TZID=America/Toronto:20250419T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amanda Chi\, cello
+DTSTART;TZID=America/Toronto:20250419T143000
+DTEND;TZID=America/Toronto:20250419T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Samantha Yang\, cello
+DTSTART;TZID=America/Toronto:20250419T173000
+DTEND;TZID=America/Toronto:20250419T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Solana Frebold\, violin
+DTSTART;TZID=America/Toronto:20250419T200000
+DTEND;TZID=America/Toronto:20250419T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adrian Nicolas Ong\, violin
+DTSTART;TZID=America/Toronto:20250420T120000
+DTEND;TZID=America/Toronto:20250420T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Corinne Turgeon\, cello
+DTSTART;TZID=America/Toronto:20250420T143000
+DTEND;TZID=America/Toronto:20250420T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mia Wimbiscus\, cello
+DTSTART;TZID=America/Toronto:20250420T173000
+DTEND;TZID=America/Toronto:20250420T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sabina Sandvoss\, cello
+DTSTART;TZID=America/Toronto:20250420T200000
+DTEND;TZID=America/Toronto:20250420T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Constantin (Khoa) Ho\, piano
+DTSTART;TZID=America/Toronto:20250421T120000
+DTEND;TZID=America/Toronto:20250421T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Grace Lau\, violin
+DTSTART;TZID=America/Toronto:20250421T143000
+DTEND;TZID=America/Toronto:20250421T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Anna Štube\, violin
+DTSTART;TZID=America/Toronto:20250422T150000
+DTEND;TZID=America/Toronto:20250422T160000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nora-Jane Montana\, soprano
+DTSTART;TZID=America/Toronto:20250427T200000
+DTEND;TZID=America/Toronto:20250427T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Clara Moniz\, mezzo-soprano
+DTSTART;TZID=America/Toronto:20250428T143000
+DTEND;TZID=America/Toronto:20250428T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adella Li\, piano
+DTSTART;TZID=America/Toronto:20250428T173000
+DTEND;TZID=America/Toronto:20250428T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stella Christine\, soprano
+DTSTART;TZID=America/Toronto:20250428T200000
+DTEND;TZID=America/Toronto:20250428T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gennady Grebenchuk\, baritone
+DTSTART;TZID=America/Toronto:20250430T173000
+DTEND;TZID=America/Toronto:20250430T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lauren Smith\, baritone
+DTSTART;TZID=America/Toronto:20250430T200000
+DTEND;TZID=America/Toronto:20250430T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Evelyn Liang\, piano 
+DTSTART;TZID=America/Toronto:20250501T173000
+DTEND;TZID=America/Toronto:20250501T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Yiran (Betty) Wang\, soprano 
+DTSTART;TZID=America/Toronto:20250501T200000
+DTEND;TZID=America/Toronto:20250501T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Olivia Morton\, soprano
+DTSTART;TZID=America/Toronto:20250502T173000
+DTEND;TZID=America/Toronto:20250502T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Frederick Huang\, piano
+DTSTART;TZID=America/Toronto:20250502T200000
+DTEND;TZID=America/Toronto:20250502T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jennifer Jeon\, violin
+DTSTART;TZID=America/Toronto:20250503T170000
+DTEND;TZID=America/Toronto:20250503T180000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Henry From\, piano
+DTSTART;TZID=America/Toronto:20250503T193000
+DTEND;TZID=America/Toronto:20250503T203000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jonathan Alter\, piano
+DTSTART;TZID=America/Toronto:20250503T210000
+DTEND;TZID=America/Toronto:20250503T220000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wolfgang Scheitinger\, bassoon
+DTSTART;TZID=America/Toronto:20250504T120000
+DTEND;TZID=America/Toronto:20250504T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Savannah Seibel\, viola
+DTSTART;TZID=America/Toronto:20250504T143000
+DTEND;TZID=America/Toronto:20250504T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kebin Lee\, flute
+DTSTART;TZID=America/Toronto:20250504T173000
+DTEND;TZID=America/Toronto:20250504T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Aaron Sieve\, horn
+DTSTART;TZID=America/Toronto:20250504T200000
+DTEND;TZID=America/Toronto:20250504T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Emma Pennell\, soprano
+DTSTART;TZID=America/Toronto:20250505T200000
+DTEND;TZID=America/Toronto:20250505T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tiffany Tsai\, violin
+DTSTART;TZID=America/Toronto:20250506T200000
+DTEND;TZID=America/Toronto:20250506T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Julia Kennific\, soprano
+DTSTART;TZID=America/Toronto:20250507T200000
+DTEND;TZID=America/Toronto:20250507T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ken Kagawa\, trombone
+DTSTART;TZID=America/Toronto:20250508T173000
+DTEND;TZID=America/Toronto:20250508T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alicia Pucci\, viola
+DTSTART;TZID=America/Toronto:20250508T200000
+DTEND;TZID=America/Toronto:20250508T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Miranda Hollingsworth\, violin
+DTSTART;TZID=America/Toronto:20250509T173000
+DTEND;TZID=America/Toronto:20250509T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daniela Carreon Herrera\, soprano
+DTSTART;TZID=America/Toronto:20250509T200000
+DTEND;TZID=America/Toronto:20250509T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Eugene Jung\, clarinet
+DTSTART;TZID=America/Toronto:20250510T173000
+DTEND;TZID=America/Toronto:20250510T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chelsea Ahn\, piano
+DTSTART;TZID=America/Toronto:20250510T200000
+DTEND;TZID=America/Toronto:20250510T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jack Fischer\, percussion
+DTSTART;TZID=America/Toronto:20250510T200000
+DTEND;TZID=America/Toronto:20250510T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Carlos Richter\, trumpet
+DTSTART;TZID=America/Toronto:20250511T120000
+DTEND;TZID=America/Toronto:20250511T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Julien Rollins\, bassoon
+DTSTART;TZID=America/Toronto:20250511T143000
+DTEND;TZID=America/Toronto:20250511T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alyssa Bartholomew\, soprano
+DTSTART;TZID=America/Toronto:20250511T173000
+DTEND;TZID=America/Toronto:20250511T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Charlotte Chong\, harp
+DTSTART;TZID=America/Toronto:20250511T200000
+DTEND;TZID=America/Toronto:20250511T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gilwon Kwack\, oboe
+DTSTART;TZID=America/Toronto:20250512T120000
+DTEND;TZID=America/Toronto:20250512T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Erik Dubeau\, trumpet
+DTSTART;TZID=America/Toronto:20250512T143000
+DTEND;TZID=America/Toronto:20250512T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Honoka Shoji\, harp
+DTSTART;TZID=America/Toronto:20250512T173000
+DTEND;TZID=America/Toronto:20250512T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gloriana Wolf\, piano
+DTSTART;TZID=America/Toronto:20250512T173000
+DTEND;TZID=America/Toronto:20250512T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Laura Kuri\, trumpet
+DTSTART;TZID=America/Toronto:20250512T200000
+DTEND;TZID=America/Toronto:20250512T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Paolo Rosselli\, horn
+DTSTART;TZID=America/Toronto:20250513T143000
+DTEND;TZID=America/Toronto:20250513T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Camilo Aybar\, clarinet
+DTSTART;TZID=America/Toronto:20250513T173000
+DTEND;TZID=America/Toronto:20250513T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ann Murdocca\, clarinet
+DTSTART;TZID=America/Toronto:20250513T200000
+DTEND;TZID=America/Toronto:20250513T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zane Mallett\, harp
+DTSTART;TZID=America/Toronto:20250514T120000
+DTEND;TZID=America/Toronto:20250514T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jeffrey Liu\, tenor
+DTSTART;TZID=America/Toronto:20250514T143000
+DTEND;TZID=America/Toronto:20250514T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thomas Ho\, piano
+DTSTART;TZID=America/Toronto:20250514T173000
+DTEND;TZID=America/Toronto:20250514T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marie-Raquel Conceição\, mezzo-soprano
+DTSTART;TZID=America/Toronto:20250514T200000
+DTEND;TZID=America/Toronto:20250514T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spencer Mendez\, bassoon
+DTSTART;TZID=America/Toronto:20250515T120000
+DTEND;TZID=America/Toronto:20250515T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reese Spencer\, bassoon
+DTSTART;TZID=America/Toronto:20250515T143000
+DTEND;TZID=America/Toronto:20250515T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Yohali Montero\, violin
+DTSTART;TZID=America/Toronto:20250515T173000
+DTEND;TZID=America/Toronto:20250515T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Roman Nykorovych\, violin
+DTSTART;TZID=America/Toronto:20250515T200000
+DTEND;TZID=America/Toronto:20250515T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Owen Chen\, oboe
+DTSTART;TZID=America/Toronto:20250516T120000
+DTEND;TZID=America/Toronto:20250516T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daria Schibitcaia\, violin
+DTSTART;TZID=America/Toronto:20250516T143000
+DTEND;TZID=America/Toronto:20250516T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tyler Prince\, baritone
+DTSTART;TZID=America/Toronto:20250516T173000
+DTEND;TZID=America/Toronto:20250516T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Karmen Grubišić\, piano
+DTSTART;TZID=America/Toronto:20250516T200000
+DTEND;TZID=America/Toronto:20250516T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diane Kim\, violin
+DTSTART;TZID=America/Toronto:20250517T173000
+DTEND;TZID=America/Toronto:20250517T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dongyu Yao\, violin
+DTSTART;TZID=America/Toronto:20250517T200000
+DTEND;TZID=America/Toronto:20250517T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Callum Aldworth\, baritone
+DTSTART;TZID=America/Toronto:20250518T200000
+DTEND;TZID=America/Toronto:20250518T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nicholas Kluftinger\, tenor
+DTSTART;TZID=America/Toronto:20250523T200000
+DTEND;TZID=America/Toronto:20250523T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
