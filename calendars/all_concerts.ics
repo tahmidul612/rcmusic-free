@@ -111,7 +111,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY: CMira Kardan\, cello 
+SUMMARY: Mira Kardan\, cello 
 DTSTART;TZID=America/Toronto:20250401T200000
 DTEND;TZID=America/Toronto:20250401T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -135,7 +135,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Solchan Kim\, viola
+SUMMARY:Solchan Kim\, violin/viola
 DTSTART;TZID=America/Toronto:20250403T200000
 DTEND;TZID=America/Toronto:20250403T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -183,7 +183,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Charles ROberts\, piano
+SUMMARY:Charles Roberts\, piano
 DTSTART;TZID=America/Toronto:20250409T153000
 DTEND;TZID=America/Toronto:20250409T163000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -303,7 +303,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ilan Mendel\, trombine
+SUMMARY:Ilan Mendel\, trombone
 DTSTART;TZID=America/Toronto:20250414T200000
 DTEND;TZID=America/Toronto:20250414T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -511,7 +511,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lauren Smith\, baritone
+SUMMARY:Lauren Smith\, soprano
 DTSTART;TZID=America/Toronto:20250430T200000
 DTEND;TZID=America/Toronto:20250430T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -807,14 +807,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Marie-Raquel Conceição\, mezzo-soprano
-DTSTART;TZID=America/Toronto:20250514T200000
-DTEND;TZID=America/Toronto:20250514T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Spencer Mendez\, bassoon
 DTSTART;TZID=America/Toronto:20250515T120000
 DTEND;TZID=America/Toronto:20250515T130000
@@ -823,7 +815,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Reese Spencer\, bassoon
+SUMMARY:Reese Hunsaker\, bassoon
 DTSTART;TZID=America/Toronto:20250515T143000
 DTEND;TZID=America/Toronto:20250515T153000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -890,6 +882,14 @@ BEGIN:VEVENT
 SUMMARY:Dongyu Yao\, violin
 DTSTART;TZID=America/Toronto:20250517T200000
 DTEND;TZID=America/Toronto:20250517T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marie-Raquel Conceição\, mezzo-soprano
+DTSTART;TZID=America/Toronto:20250518T200000
+DTEND;TZID=America/Toronto:20250518T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
