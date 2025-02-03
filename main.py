@@ -7,8 +7,13 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import os
 import pytz
+import logging
 
 EVENT_WEBPAGE_URL = "https://www.rcmusic.com/ggs/master-classes-and-performances/student-recitals-and-community-performances"
+
+# setup logging
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 def remove_escape_chars(table_json):
     for row in table_json:
