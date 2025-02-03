@@ -34,14 +34,22 @@ def create_ics(table_json):
     
     for entry in table_json:
         event = Event()
-        event.add('summary', entry['Artist & Discipline'])
-        event['location'] = vText(entry['Location'])
-        event.add('description', EVENT_WEBPAGE_URL)
-        start_time = datetime.strptime(entry['Date & Time'], '%A, %B %d %I:%M%p').replace(
-            tzinfo=pytz.timezone('America/Toronto')).replace(year=datetime.now().year)
-        event.add('dtstart', start_time)
-        event.add('dtend', start_time + timedelta(hours=1))
-        cal.add_component(event)
+        try:
+            event.add('summary', entry['Artist & Discipline'])
+            event['location'] = vText(entry['Location'])
+            event.add('description', EVENT_WEBPAGE_URL)
+            start_time = datetime.strptime(entry['Date & Time'], '%A, %B %d %I:%M%p').replace(
+                tzinfo=pytz.timezone('America/Toronto')).replace(year=datetime.now().year)
+        except KeyError:
+            logger.error("KeyError: %s", entry)
+        except ValueError:
+            logger.error("ValueError: %s", entry)
+        except Exception as e:
+            continue
+        else:
+            event.add('dtstart', start_time)
+            event.add('dtend', start_time + timedelta(hours=1))
+            cal.add_component(event)
 
     # Write to disk
     directory = Path.cwd() / 'calendars'
