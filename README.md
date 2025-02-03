@@ -5,9 +5,9 @@ Get schedule for free concerts from the Royal Conservatory of Music in Toronto i
 > [!NOTE]
 > The calendar is updated every hour. Add event change notifications from your calendar app to get notified about the latest updates.
 
-[![Add to Google Calendar](https://img.shields.io/badge/Add_to_Google_Calendar-darkslategray?style=for-the-badge&logo=googlecalendar)](https://calendar.google.com/calendar/u/0?cid=NWVhZTJmZGIxMThmZjU4ZDFjNTI4ZmQ3YWU3NmYwMjNmZTE1MmZhZTZkYzgzODJmYzY5NzA2MDYzN2U4OGJmMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+[![Add to Google Calendar](https://img.shields.io/badge/Add_to_Google_Calendar-darkslategray?style=for-the-badge&logo=googlecalendar)](https://calendar.google.com/calendar/u/0?cid=ODkzZjEyYTRhMjQ1ZDIxZTZkYjZkOTk1NDc0ODRjNTlhZmYzYWY2MTA3MjlhMTY0ZTFmMTI1ODcyNjg1ZmZjZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
-[![Get iCal File](https://img.shields.io/badge/Get_iCal_File-white?style=for-the-badge&logo=googlecalendar&logoColor=red)](https://calendar.google.com/calendar/u/0?cid=NWVhZTJmZGIxMThmZjU4ZDFjNTI4ZmQ3YWU3NmYwMjNmZTE1MmZhZTZkYzgzODJmYzY5NzA2MDYzN2U4OGJmMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+[![Get iCal File](https://img.shields.io/badge/Get_iCal_File-white?style=for-the-badge&logo=googlecalendar&logoColor=red)](https://rc-music-all.tahmidul612.workers.dev)
 
 ## Build and Deploy Instructions
 
