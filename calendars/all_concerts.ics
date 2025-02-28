@@ -15,17 +15,9 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY: Hon Yu (Richard) Wong\, piano 
-DTSTART;TZID=America/Toronto:20250314T200000
-DTEND;TZID=America/Toronto:20250314T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Elina Yuma\, violin
-DTSTART;TZID=America/Toronto:20250316T200000
-DTEND;TZID=America/Toronto:20250316T210000
+SUMMARY:Anna Štube\, violin
+DTSTART;TZID=America/Toronto:20250317T140000
+DTEND;TZID=America/Toronto:20250317T150000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
@@ -247,14 +239,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Leandra Dahm\, soprano
-DTSTART;TZID=America/Toronto:20250413T143000
-DTEND;TZID=America/Toronto:20250413T153000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Tiffany Yeung\, violin
 DTSTART;TZID=America/Toronto:20250413T173000
 DTEND;TZID=America/Toronto:20250413T183000
@@ -455,14 +439,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Anna Štube\, violin
-DTSTART;TZID=America/Toronto:20250422T150000
-DTEND;TZID=America/Toronto:20250422T160000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Nora-Jane Montana\, soprano
 DTSTART;TZID=America/Toronto:20250427T200000
 DTEND;TZID=America/Toronto:20250427T210000
@@ -474,14 +450,6 @@ BEGIN:VEVENT
 SUMMARY:Clara Moniz\, mezzo-soprano
 DTSTART;TZID=America/Toronto:20250428T143000
 DTEND;TZID=America/Toronto:20250428T153000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Adella Li\, piano
-DTSTART;TZID=America/Toronto:20250428T173000
-DTEND;TZID=America/Toronto:20250428T183000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
@@ -511,6 +479,14 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hon Yu (Richard) Wong\, piano
+DTSTART;TZID=America/Toronto:20250501T143000
+DTEND;TZID=America/Toronto:20250501T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY: Evelyn Liang\, piano 
 DTSTART;TZID=America/Toronto:20250501T173000
 DTEND;TZID=America/Toronto:20250501T183000
@@ -522,6 +498,14 @@ BEGIN:VEVENT
 SUMMARY: Yiran (Betty) Wang\, soprano 
 DTSTART;TZID=America/Toronto:20250501T200000
 DTEND;TZID=America/Toronto:20250501T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Leandra Dahm\, soprano
+DTSTART;TZID=America/Toronto:20250502T143000
+DTEND;TZID=America/Toronto:20250502T153000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
@@ -551,9 +535,9 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Henry From\, piano
-DTSTART;TZID=America/Toronto:20250503T193000
-DTEND;TZID=America/Toronto:20250503T203000
+SUMMARY:Elina Yuma\, violin
+DTSTART;TZID=America/Toronto:20250503T190000
+DTEND;TZID=America/Toronto:20250503T200000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
@@ -623,12 +607,12 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ken Kagawa\, trombone
-DTSTART;TZID=America/Toronto:20250508T173000
-DTEND;TZID=America/Toronto:20250508T183000
+SUMMARY:Christina Soobee Kim\, cello
+DTSTART;TZID=America/Toronto:20250507T200000
+DTEND;TZID=America/Toronto:20250507T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
+LOCATION:Temerty Theatre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Alicia Pucci\, viola
@@ -640,6 +624,14 @@ LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Miranda Hollingsworth\, violin
+DTSTART;TZID=America/Toronto:20250508T173000
+DTEND;TZID=America/Toronto:20250508T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ken Kagawa\, trombone
 DTSTART;TZID=America/Toronto:20250509T173000
 DTEND;TZID=America/Toronto:20250509T183000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -698,6 +690,14 @@ BEGIN:VEVENT
 SUMMARY:Alyssa Bartholomew\, soprano
 DTSTART;TZID=America/Toronto:20250511T173000
 DTEND;TZID=America/Toronto:20250511T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adella Li\, piano
+DTSTART;TZID=America/Toronto:20250511T200000
+DTEND;TZID=America/Toronto:20250511T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
@@ -898,6 +898,14 @@ BEGIN:VEVENT
 SUMMARY:Nicholas Kluftinger\, tenor
 DTSTART;TZID=America/Toronto:20250523T200000
 DTEND;TZID=America/Toronto:20250523T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Henry From\, piano
+DTSTART;TZID=America/Toronto:20250531T173000
+DTEND;TZID=America/Toronto:20250531T183000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
