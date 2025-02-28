@@ -7,14 +7,6 @@ METHOD:PUBLISH
 X-WR-CALNAME:The Royal Conservatory Concerts
 X-WR-TIMEZONE:America/Toronto
 BEGIN:VEVENT
-SUMMARY: Eric Guo\, piano 
-DTSTART;TZID=America/Toronto:20250202T180000
-DTEND;TZID=America/Toronto:20250202T190000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY: Joelle Crigger\, violin 
 DTSTART;TZID=America/Toronto:20250301T200000
 DTEND;TZID=America/Toronto:20250301T210000
