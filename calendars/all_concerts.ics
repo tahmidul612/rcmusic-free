@@ -111,15 +111,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Derrick Giuntini\, violin
-DTSTART;TZID=America/Toronto:20250403T173000
-DTEND;TZID=America/Toronto:20250403T183000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Solchan Kim\, violin/viola
+SUMMARY:Solchan Kim\, viola
 DTSTART;TZID=America/Toronto:20250403T200000
 DTEND;TZID=America/Toronto:20250403T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -234,6 +226,14 @@ BEGIN:VEVENT
 SUMMARY:Carrie Wang\, violin
 DTSTART;TZID=America/Toronto:20250413T120000
 DTEND;TZID=America/Toronto:20250413T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Derrick Giuntini\, violin
+DTSTART;TZID=America/Toronto:20250413T143000
+DTEND;TZID=America/Toronto:20250413T153000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
