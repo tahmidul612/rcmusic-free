@@ -87,14 +87,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY: Shin Tanaka\, bass trombone 
-DTSTART;TZID=America/Toronto:20250401T180000
-DTEND;TZID=America/Toronto:20250401T190000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY: Mira Kardan\, cello 
 DTSTART;TZID=America/Toronto:20250401T200000
 DTEND;TZID=America/Toronto:20250401T210000
