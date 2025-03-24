@@ -55,22 +55,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Craig Swink\, clarinet
-DTSTART;TZID=America/Toronto:20250327T173000
-DTEND;TZID=America/Toronto:20250327T183000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Robyn Lianne Cheng\, viola
-DTSTART;TZID=America/Toronto:20250327T200000
-DTEND;TZID=America/Toronto:20250327T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Adriana Da\, soprano
 DTSTART;TZID=America/Toronto:20250330T143000
 DTEND;TZID=America/Toronto:20250330T153000
@@ -426,6 +410,14 @@ BEGIN:VEVENT
 SUMMARY:Grace Lau\, violin
 DTSTART;TZID=America/Toronto:20250421T143000
 DTEND;TZID=America/Toronto:20250421T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Robyn Lianne Cheng\, viola
+DTSTART;TZID=America/Toronto:20250422T160000
+DTEND;TZID=America/Toronto:20250422T170000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
