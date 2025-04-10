@@ -183,14 +183,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Audrey Franssen Keenan\, soprano
-DTSTART;TZID=America/Toronto:20250414T173000
-DTEND;TZID=America/Toronto:20250414T183000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ilan Mendel\, trombone
 DTSTART;TZID=America/Toronto:20250414T200000
 DTEND;TZID=America/Toronto:20250414T210000
@@ -439,6 +431,14 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Jonathan Alter\, piano
+DTSTART;TZID=America/Toronto:20250503T150000
+DTEND;TZID=America/Toronto:20250503T160000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Jennifer Jeon\, violin
 DTSTART;TZID=America/Toronto:20250503T170000
 DTEND;TZID=America/Toronto:20250503T180000
@@ -450,14 +450,6 @@ BEGIN:VEVENT
 SUMMARY:Elina Yuma\, violin
 DTSTART;TZID=America/Toronto:20250503T190000
 DTEND;TZID=America/Toronto:20250503T200000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Jonathan Alter\, piano
-DTSTART;TZID=America/Toronto:20250503T210000
-DTEND;TZID=America/Toronto:20250503T220000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
@@ -495,7 +487,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tiffany Tsai\, violin
+SUMMARY:Adella Li\, piano
 DTSTART;TZID=America/Toronto:20250506T200000
 DTEND;TZID=America/Toronto:20250506T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -511,7 +503,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christina Soobee Kim\, cello
+SUMMARY:Soobee Kim\, cello
 DTSTART;TZID=America/Toronto:20250507T200000
 DTEND;TZID=America/Toronto:20250507T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -591,7 +583,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Adella Li\, piano
+SUMMARY:Tiffany Tsai\, violin
 DTSTART;TZID=America/Toronto:20250511T200000
 DTEND;TZID=America/Toronto:20250511T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
