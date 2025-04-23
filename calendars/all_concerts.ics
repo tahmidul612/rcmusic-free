@@ -415,14 +415,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Olivia Morton\, soprano
-DTSTART;TZID=America/Toronto:20250502T173000
-DTEND;TZID=America/Toronto:20250502T183000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Frederick Huang\, piano
 DTSTART;TZID=America/Toronto:20250502T200000
 DTEND;TZID=America/Toronto:20250502T210000
@@ -527,14 +519,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jack Fischer\, percussion
-DTSTART;TZID=America/Toronto:20250508T200000
-DTEND;TZID=America/Toronto:20250508T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Temerty Theatre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ken Kagawa\, trombone
 DTSTART;TZID=America/Toronto:20250509T173000
 DTEND;TZID=America/Toronto:20250509T183000
@@ -557,6 +541,14 @@ DTEND;TZID=America/Toronto:20250510T183000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jack Fischer\, percussion
+DTSTART;TZID=America/Toronto:20250510T200000
+DTEND;TZID=America/Toronto:20250510T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Carlos Richter\, trumpet
@@ -616,14 +608,6 @@ LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Honoka Shoji\, harp
-DTSTART;TZID=America/Toronto:20250512T173000
-DTEND;TZID=America/Toronto:20250512T183000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Temerty Theatre
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gloriana Wolf\, piano
 DTSTART;TZID=America/Toronto:20250512T173000
 DTEND;TZID=America/Toronto:20250512T183000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -690,14 +674,6 @@ BEGIN:VEVENT
 SUMMARY:Thomas Ho\, piano
 DTSTART;TZID=America/Toronto:20250514T173000
 DTEND;TZID=America/Toronto:20250514T183000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Chelsea Ahn\, piano
-DTSTART;TZID=America/Toronto:20250514T200000
-DTEND;TZID=America/Toronto:20250514T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
@@ -818,6 +794,14 @@ BEGIN:VEVENT
 SUMMARY:Emma Pennell\, soprano
 DTSTART;TZID=America/Toronto:20250522T190000
 DTEND;TZID=America/Toronto:20250522T200000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chelsea Ahn\, piano
+DTSTART;TZID=America/Toronto:20250522T200000
+DTEND;TZID=America/Toronto:20250522T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
