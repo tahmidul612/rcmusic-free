@@ -428,7 +428,7 @@ DTSTART;TZID=America/Toronto:20250503T150000
 DTEND;TZID=America/Toronto:20250503T160000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
+LOCATION:Temerty Theatre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jennifer Jeon\, violin
