@@ -79,17 +79,17 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kebin Lee\, flute
-DTSTART;TZID=America/Toronto:20250504T173000
-DTEND;TZID=America/Toronto:20250504T183000
+SUMMARY:Aaron Sieve\, horn
+DTSTART;TZID=America/Toronto:20250504T200000
+DTEND;TZID=America/Toronto:20250504T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Aaron Sieve\, horn
-DTSTART;TZID=America/Toronto:20250504T200000
-DTEND;TZID=America/Toronto:20250504T210000
+SUMMARY:Kebin Lee\, clarinet
+DTSTART;TZID=America/Toronto:20250505T210000
+DTEND;TZID=America/Toronto:20250505T220000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
