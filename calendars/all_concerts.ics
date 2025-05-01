@@ -23,7 +23,7 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY: Leandra Dahm\, soprano
+SUMMARY:Leandra Dahm\, soprano
 DTSTART;TZID=America/Toronto:20250502T143000
 DTEND;TZID=America/Toronto:20250502T153000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
@@ -45,22 +45,6 @@ DTEND;TZID=America/Toronto:20250503T160000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Temerty Theatre
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Jennifer Jeon\, violin
-DTSTART;TZID=America/Toronto:20250503T170000
-DTEND;TZID=America/Toronto:20250503T180000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Elina Yuma\, violin
-DTSTART;TZID=America/Toronto:20250503T190000
-DTEND;TZID=America/Toronto:20250503T200000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wolfgang Scheitinger\, bassoon
@@ -295,6 +279,14 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY: Olivia Morton\, soprano 
+DTSTART;TZID=America/Toronto:20250514T200000
+DTEND;TZID=America/Toronto:20250514T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Spencer Mendez\, bassoon
 DTSTART;TZID=America/Toronto:20250515T120000
 DTEND;TZID=America/Toronto:20250515T130000
@@ -408,8 +400,8 @@ LOCATION:Temerty Theatre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Emma Pennell\, soprano
-DTSTART;TZID=America/Toronto:20250522T190000
-DTEND;TZID=America/Toronto:20250522T200000
+DTSTART;TZID=America/Toronto:20250522T180000
+DTEND;TZID=America/Toronto:20250522T190000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
@@ -426,6 +418,22 @@ BEGIN:VEVENT
 SUMMARY:Nicholas Kluftinger\, tenor
 DTSTART;TZID=America/Toronto:20250523T200000
 DTEND;TZID=America/Toronto:20250523T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Gloriana Wolf\, piano 
+DTSTART;TZID=America/Toronto:20250524T170000
+DTEND;TZID=America/Toronto:20250524T180000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY: Audrey Franssen Keenan\, soprano 
+DTSTART;TZID=America/Toronto:20250526T173000
+DTEND;TZID=America/Toronto:20250526T183000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
