@@ -39,6 +39,14 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Jennifer Jeon\, violin
+DTSTART;TZID=America/Toronto:20250503T170000
+DTEND;TZID=America/Toronto:20250503T180000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wolfgang Scheitinger\, bassoon
 DTSTART;TZID=America/Toronto:20250504T120000
 DTEND;TZID=America/Toronto:20250504T130000
