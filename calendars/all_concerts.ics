@@ -39,14 +39,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jonathan Alter\, piano
-DTSTART;TZID=America/Toronto:20250503T150000
-DTEND;TZID=America/Toronto:20250503T160000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Temerty Theatre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Wolfgang Scheitinger\, bassoon
 DTSTART;TZID=America/Toronto:20250504T120000
 DTEND;TZID=America/Toronto:20250504T130000
