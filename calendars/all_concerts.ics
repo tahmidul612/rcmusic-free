@@ -143,14 +143,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jack Fischer\, percussion
-DTSTART;TZID=America/Toronto:20250510T200000
-DTEND;TZID=America/Toronto:20250510T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Temerty Theatre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Carlos Richter\, trumpet
 DTSTART;TZID=America/Toronto:20250511T120000
 DTEND;TZID=America/Toronto:20250511T130000
@@ -429,6 +421,14 @@ DTEND;TZID=America/Toronto:20250524T180000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jack Fischer\, percussion
+DTSTART;TZID=America/Toronto:20250525T200000
+DTEND;TZID=America/Toronto:20250525T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY: Audrey Franssen Keenan\, soprano 
