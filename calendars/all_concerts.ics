@@ -191,14 +191,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Erik Dubeau\, trumpet
-DTSTART;TZID=America/Toronto:20250512T143000
-DTEND;TZID=America/Toronto:20250512T153000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Honoka Shoji\, harp
 DTSTART;TZID=America/Toronto:20250512T173000
 DTEND;TZID=America/Toronto:20250512T183000
@@ -410,14 +402,6 @@ BEGIN:VEVENT
 SUMMARY:Nicholas Kluftinger\, tenor
 DTSTART;TZID=America/Toronto:20250523T200000
 DTEND;TZID=America/Toronto:20250523T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY: Gloriana Wolf\, piano 
-DTSTART;TZID=America/Toronto:20250524T170000
-DTEND;TZID=America/Toronto:20250524T180000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
