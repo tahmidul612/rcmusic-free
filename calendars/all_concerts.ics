@@ -391,6 +391,14 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Chelsea Ahn\, piano
+DTSTART;TZID=America/Toronto:20250522T200000
+DTEND;TZID=America/Toronto:20250522T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nicholas Kluftinger\, tenor
 DTSTART;TZID=America/Toronto:20250523T200000
 DTEND;TZID=America/Toronto:20250523T210000
