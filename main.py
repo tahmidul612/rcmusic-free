@@ -16,6 +16,14 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 def remove_escape_chars(table_json):
+    """Removes escape characters and extra whitespace from a JSON object.
+
+    Args:
+        table_json (list): A list of dictionaries representing a table.
+
+    Returns:
+        list: The cleaned JSON object.
+    """
     for row in table_json:
         for key in row:
             row[key] = re.sub(
@@ -25,7 +33,22 @@ def remove_escape_chars(table_json):
 
 
 def parse_date(date_str):
-    formats = ["%A, %B %d %I:%M%p", "%A, %B %d, %Y %I:%M%p"]
+    """Parses a date string and returns a datetime object.
+
+    The function tries to parse the date string with multiple formats.
+    If the year is not present in the date string, the current year is used.
+    The timezone is set to 'America/Toronto'.
+
+    Args:
+        date_str (str): The date string to parse.
+
+    Returns:
+        datetime: The parsed datetime object.
+
+    Raises:
+        ValueError: If the date string does not match any of the supported formats.
+    """
+    formats = ["%A, %B %d %I:%M%p", "%A, %B %d, %Y %I:%M%p", "%A, %B %d, %Y, %I:%M%p"]
     for fmt in formats:
         try:
             date = datetime.strptime(date_str, fmt).replace(
@@ -37,6 +60,14 @@ def parse_date(date_str):
         f"Date string '{date_str}' does not match any of the formats: {formats}")
 
 def create_ics(table_json):
+    """Creates an iCalendar file from a JSON object.
+
+    The function creates an iCalendar file with all the concerts from the
+    JSON object. The file is saved in the 'calendars' directory.
+
+    Args:
+        table_json (list): A list of dictionaries representing the concerts table.
+    """
     cal = Calendar()
     cal.add('prodid', '-//The Royal Conservatory Student Recitals and Community Performances//www.rcmusic.com//')
     cal.add('version', '2.0')
@@ -53,7 +84,10 @@ def create_ics(table_json):
             event.add('summary', entry['Artist & Discipline'])
             event['location'] = vText(entry['Location'])
             event.add('description', EVENT_WEBPAGE_URL)
-            start_time = parse_date(entry['Date & Time'])
+            if 'Date & Time' in entry:
+                start_time = parse_date(entry['Date & Time'])
+            else:
+                start_time = parse_date(f"{entry['Date']} {entry['Time']}")
         except KeyError:
             logger.error("KeyError: %s", entry)
         except ValueError:
@@ -75,6 +109,14 @@ def create_ics(table_json):
 
 
 def main():
+    """Fetches the concert data, parses it, and creates an iCalendar file.
+
+    The main function that orchestrates the scraping, parsing, and iCalendar
+    creation process.
+
+    Returns:
+        bool: True if the iCalendar file was created successfully, False otherwise.
+    """
     html_doc = requests.get(EVENT_WEBPAGE_URL).text
     soup = BeautifulSoup(html_doc, 'html.parser')
 
@@ -104,4 +146,6 @@ def main():
 
 
 if __name__ == '__main__':
+    # This block ensures that the main() function is called only when the script
+    # is executed directly, not when it's imported as a module.
     main()
