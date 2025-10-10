@@ -27,7 +27,7 @@ def remove_escape_chars(table_json):
     for row in table_json:
         for key in row:
             row[key] = re.sub(
-                '\s+', ' ', bytes(str(row[key]), 'utf-8').decode('utf-8'))
+                r'\s+', ' ', bytes(str(row[key]), 'utf-8').decode('utf-8'))
             row[key] = row[key].replace("\u200b", " ")
     return table_json
 
@@ -36,7 +36,7 @@ def parse_date(date_str):
     """Parses a date string and returns a datetime object.
 
     The function tries to parse the date string with multiple formats.
-    If the year is not present in the date string, the current year is used.
+    If the year is not present in the date string, the current year is added before parsing.
     The timezone is set to 'America/Toronto'.
 
     Args:
@@ -48,12 +48,22 @@ def parse_date(date_str):
     Raises:
         ValueError: If the date string does not match any of the supported formats.
     """
-    formats = ["%A, %B %d %I:%M%p", "%A, %B %d, %Y %I:%M%p", "%A, %B %d, %Y, %I:%M%p"]
+    current_year = datetime.now().year
+
+    # If date string doesn't contain a year, add it
+    # Check if year pattern (4 digits) exists in the string
+    if not re.search(r'\b\d{4}\b', date_str):
+        # Add year after the day number (e.g., "Friday, September 5" -> "Friday, September 5, 2025")
+        # Match pattern: day of week, month name, day number, then rest
+        date_str = re.sub(r'(\w+,\s+\w+\s+\d+)(\s+)', rf'\1, {current_year}\2', date_str)
+
+    formats = ["%A, %B %d, %Y %I:%M%p", "%A, %B %d, %Y, %I:%M%p"]
+
     for fmt in formats:
         try:
             date = datetime.strptime(date_str, fmt).replace(
                 tzinfo=pytz.timezone('America/Toronto'))
-            return date if '%Y' in fmt else date.replace(year=datetime.now().year)
+            return date
         except ValueError:
             continue
     raise ValueError(
@@ -93,6 +103,7 @@ def create_ics(table_json):
         except ValueError:
             logger.error("ValueError: %s", entry)
         except Exception as e:
+            logger.error("Unexpected error (%s): %s", e, entry)
             continue
         else:
             event.add('dtstart', start_time)
@@ -120,29 +131,43 @@ def main():
     html_doc = requests.get(EVENT_WEBPAGE_URL).text
     soup = BeautifulSoup(html_doc, 'html.parser')
 
-    # Add table tag to the html (helps html_to_json to parse the table)
-    table_html = "<table>\n"
-    # Find ar tr (table row) tags and add them to the table_html
-    rows = soup.find_all("tr")
-    if rows:
-        for row in rows:
-            table_html += str(row)
-        table_html += "\n</table>"
+    # Try multiple methods to find concert tables for robustness
+    # Method 1: Find tables directly (current website structure)
+    concert_tables = soup.find_all("table")
 
-        # Convert the table_html to json
-        # table_json is a list of dictionaries (each list is a row in the table)
-        # Each dictionary has three keys: "Date & Time", "Location", and "Artist & Discipline"
+    rows = []
+    if concert_tables:
+        for table in concert_tables:
+            rows.extend(table.find_all("tr"))
 
-        table_json = remove_escape_chars(
-            html_to_json.convert_tables(table_html)[0])
+    # Method 2: Fallback to finding divs with class "rcm-responsive-table" (old structure)
+    if not rows:
+        concert_divs = soup.find_all("div", class_="rcm-responsive-table")
+        if concert_divs:
+            for div in concert_divs:
+                rows.extend(div.find_all("tr"))
 
-        # Create the ics file
-        create_ics(table_json)
-        print("Successfully created the ics file.")
-        return True
-    else:
+    if not rows:
         print("No concerts found on the webpage.")
         return False
+
+    # Add table tag to the html (helps html_to_json to parse the table)
+    table_html = "<table>\n"
+    for row in rows:
+        table_html += str(row)
+    table_html += "\n</table>"
+
+    # Convert the table_html to json
+    # table_json is a list of dictionaries (each list is a row in the table)
+    # Each dictionary has three keys: "Date & Time", "Location", and "Artist & Discipline"
+
+    table_json = remove_escape_chars(
+        html_to_json.convert_tables(table_html)[0])
+
+    # Create the ics file
+    create_ics(table_json)
+    print("Successfully created the ics file.")
+    return True
 
 
 if __name__ == '__main__':
