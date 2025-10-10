@@ -120,29 +120,36 @@ def main():
     html_doc = requests.get(EVENT_WEBPAGE_URL).text
     soup = BeautifulSoup(html_doc, 'html.parser')
 
-    # Add table tag to the html (helps html_to_json to parse the table)
-    table_html = "<table>\n"
-    # Find ar tr (table row) tags and add them to the table_html
-    rows = soup.find_all("tr")
-    if rows:
-        for row in rows:
-            table_html += str(row)
-        table_html += "\n</table>"
+    # Find all divs that contain the concert tables
+    # This is more specific and less prone to breaking if the website layout changes
+    concert_tables = soup.find_all("div", class_="rcm-responsive-table")
 
-        # Convert the table_html to json
-        # table_json is a list of dictionaries (each list is a row in the table)
-        # Each dictionary has three keys: "Date & Time", "Location", and "Artist & Discipline"
+    rows = []
+    if concert_tables:
+        for table in concert_tables:
+            rows.extend(table.find_all("tr"))
 
-        table_json = remove_escape_chars(
-            html_to_json.convert_tables(table_html)[0])
-
-        # Create the ics file
-        create_ics(table_json)
-        print("Successfully created the ics file.")
-        return True
-    else:
+    if not rows:
         print("No concerts found on the webpage.")
         return False
+
+    # Add table tag to the html (helps html_to_json to parse the table)
+    table_html = "<table>\n"
+    for row in rows:
+        table_html += str(row)
+    table_html += "\n</table>"
+
+    # Convert the table_html to json
+    # table_json is a list of dictionaries (each list is a row in the table)
+    # Each dictionary has three keys: "Date & Time", "Location", and "Artist & Discipline"
+
+    table_json = remove_escape_chars(
+        html_to_json.convert_tables(table_html)[0])
+
+    # Create the ics file
+    create_ics(table_json)
+    print("Successfully created the ics file.")
+    return True
 
 
 if __name__ == '__main__':
