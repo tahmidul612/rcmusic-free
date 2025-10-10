@@ -93,6 +93,7 @@ def create_ics(table_json):
         except ValueError:
             logger.error("ValueError: %s", entry)
         except Exception as e:
+            logger.error("Unexpected error (%s): %s", e, entry)
             continue
         else:
             event.add('dtstart', start_time)
