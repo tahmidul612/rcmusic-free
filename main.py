@@ -36,7 +36,7 @@ def parse_date(date_str):
     """Parses a date string and returns a datetime object.
 
     The function tries to parse the date string with multiple formats.
-    If the year is not present in the date string, the current year is used.
+    If the year is not present in the date string, the current year is added before parsing.
     The timezone is set to 'America/Toronto'.
 
     Args:
@@ -48,12 +48,22 @@ def parse_date(date_str):
     Raises:
         ValueError: If the date string does not match any of the supported formats.
     """
-    formats = ["%A, %B %d %I:%M%p", "%A, %B %d, %Y %I:%M%p", "%A, %B %d, %Y, %I:%M%p"]
+    current_year = datetime.now().year
+
+    # If date string doesn't contain a year, add it
+    # Check if year pattern (4 digits) exists in the string
+    if not re.search(r'\b\d{4}\b', date_str):
+        # Add year after the day number (e.g., "Friday, September 5" -> "Friday, September 5, 2025")
+        # Match pattern: day of week, month name, day number, then rest
+        date_str = re.sub(r'(\w+,\s+\w+\s+\d+)(\s+)', rf'\1, {current_year}\2', date_str)
+
+    formats = ["%A, %B %d, %Y %I:%M%p", "%A, %B %d, %Y, %I:%M%p"]
+
     for fmt in formats:
         try:
             date = datetime.strptime(date_str, fmt).replace(
                 tzinfo=pytz.timezone('America/Toronto'))
-            return date if '%Y' in fmt else date.replace(year=datetime.now().year)
+            return date
         except ValueError:
             continue
     raise ValueError(
