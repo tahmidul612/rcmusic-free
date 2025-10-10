@@ -48,7 +48,7 @@ def parse_date(date_str):
     Raises:
         ValueError: If the date string does not match any of the supported formats.
     """
-    formats = ["%A, %B %d %I:%M%p", "%A, %B %d, %Y %I:%M%p", "%A, %B %d, %I:%M%p"]
+    formats = ["%A, %B %d %I:%M%p", "%A, %B %d, %Y %I:%M%p", "%A, %B %d, %Y, %I:%M%p"]
     for fmt in formats:
         try:
             date = datetime.strptime(date_str, fmt).replace(
