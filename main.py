@@ -121,14 +121,21 @@ def main():
     html_doc = requests.get(EVENT_WEBPAGE_URL).text
     soup = BeautifulSoup(html_doc, 'html.parser')
 
-    # Find all divs that contain the concert tables
-    # This is more specific and less prone to breaking if the website layout changes
-    concert_tables = soup.find_all("div", class_="rcm-responsive-table")
+    # Try multiple methods to find concert tables for robustness
+    # Method 1: Find tables directly (current website structure)
+    concert_tables = soup.find_all("table")
 
     rows = []
     if concert_tables:
         for table in concert_tables:
             rows.extend(table.find_all("tr"))
+
+    # Method 2: Fallback to finding divs with class "rcm-responsive-table" (old structure)
+    if not rows:
+        concert_divs = soup.find_all("div", class_="rcm-responsive-table")
+        if concert_divs:
+            for div in concert_divs:
+                rows.extend(div.find_all("tr"))
 
     if not rows:
         print("No concerts found on the webpage.")
