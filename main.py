@@ -27,7 +27,7 @@ def remove_escape_chars(table_json):
     for row in table_json:
         for key in row:
             row[key] = re.sub(
-                '\s+', ' ', bytes(str(row[key]), 'utf-8').decode('utf-8'))
+                r'\s+', ' ', bytes(str(row[key]), 'utf-8').decode('utf-8'))
             row[key] = row[key].replace("\u200b", " ")
     return table_json
 
