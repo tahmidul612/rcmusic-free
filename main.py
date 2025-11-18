@@ -128,7 +128,19 @@ def main():
     Returns:
         bool: True if the iCalendar file was created successfully, False otherwise.
     """
-    html_doc = requests.get(EVENT_WEBPAGE_URL).text
+    try:
+        response = requests.get(EVENT_WEBPAGE_URL)
+        response.raise_for_status()  # Raises HTTPError for bad status codes (4xx, 5xx)
+        html_doc = response.text
+    except requests.exceptions.HTTPError as e:
+        logger.error("HTTP error occurred while fetching the webpage: %s", e)
+        print(f"Failed to fetch the webpage. HTTP error: {e}")
+        return False
+    except requests.exceptions.RequestException as e:
+        logger.error("Request error occurred: %s", e)
+        print(f"Failed to fetch the webpage. Request error: {e}")
+        return False
+    
     soup = BeautifulSoup(html_doc, 'html.parser')
 
     # Try multiple methods to find concert tables for robustness
