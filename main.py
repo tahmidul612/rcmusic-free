@@ -144,20 +144,19 @@ def main():
     soup = BeautifulSoup(html_doc, 'html.parser')
 
     # Try multiple methods to find concert tables for robustness
-    # Method 1: Find tables directly (current website structure)
-    concert_tables = soup.find_all("table")
-
+    # Method 1: Look for tables within divs with class "rcm-responsive-table" (preferred)
+    concert_divs = soup.find_all("div", class_="rcm-responsive-table")
     rows = []
-    if concert_tables:
-        for table in concert_tables:
-            rows.extend(table.find_all("tr"))
-
-    # Method 2: Fallback to finding divs with class "rcm-responsive-table" (old structure)
+    if concert_divs:
+        for div in concert_divs:
+            rows.extend(div.find_all("tr"))
+    
+    # Method 2: Fallback to finding all tables directly if no concert divs found
     if not rows:
-        concert_divs = soup.find_all("div", class_="rcm-responsive-table")
-        if concert_divs:
-            for div in concert_divs:
-                rows.extend(div.find_all("tr"))
+        concert_tables = soup.find_all("table")
+        if concert_tables:
+            for table in concert_tables:
+                rows.extend(table.find_all("tr"))
 
     if not rows:
         print("No concerts found on the webpage.")
