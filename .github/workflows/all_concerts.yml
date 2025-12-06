@@ -36,6 +36,7 @@ jobs:
           git push
           python main.py
           git add -A
+          git add -f calendars/
           if ! git diff-index --quiet HEAD; then
             git commit -m "calendar update"
             git push
