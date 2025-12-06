@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//The Royal Conservatory Student Recitals and Community Performanc
+ es//www.rcmusic.com//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:The Royal Conservatory Concerts
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+SUMMARY:Anna Štube\, violin
+DTSTART;TZID=America/Toronto:20251201T140000
+DTEND;TZID=America/Toronto:20251201T150000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jerry Hu\, piano
+DTSTART;TZID=America/Toronto:20251204T163000
+DTEND;TZID=America/Toronto:20251204T173000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rowan Sawarna-Small\, piano
+DTSTART;TZID=America/Toronto:20251205T210000
+DTEND;TZID=America/Toronto:20251205T220000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jonathan Alter\, piano\; Brahms Symphony No. 1
+DTSTART;TZID=America/Toronto:20251207T193000
+DTEND;TZID=America/Toronto:20251207T203000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Solchan Kim\, viola
+DTSTART;TZID=America/Toronto:20251209T200000
+DTEND;TZID=America/Toronto:20251209T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Juliana Moroz\, cello 2025-26 Rebanks Fellow
+DTSTART;TZID=America/Toronto:20251210T190000
+DTEND;TZID=America/Toronto:20251210T200000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Carrie Wang\, violin
+DTSTART;TZID=America/Toronto:20251217T140000
+DTEND;TZID=America/Toronto:20251217T150000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+END:VCALENDAR
