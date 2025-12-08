@@ -62,4 +62,12 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Eric Guo\, piano
+DTSTART;TZID=America/Toronto:20250129T130000
+DTEND;TZID=America/Toronto:20250129T140000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
 END:VCALENDAR
