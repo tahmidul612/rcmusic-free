@@ -8,16 +8,16 @@ X-WR-CALNAME:The Royal Conservatory Concerts
 X-WR-TIMEZONE:America/Toronto
 BEGIN:VEVENT
 SUMMARY:Frederick Huang\, piano
-DTSTART;TZID=America/Toronto:20250115T170000
-DTEND;TZID=America/Toronto:20250115T180000
+DTSTART;TZID=America/Toronto:20260115T170000
+DTEND;TZID=America/Toronto:20260115T180000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Eric Guo\, piano
-DTSTART;TZID=America/Toronto:20250129T130000
-DTEND;TZID=America/Toronto:20250129T140000
+DTSTART;TZID=America/Toronto:20260129T130000
+DTEND;TZID=America/Toronto:20260129T140000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
