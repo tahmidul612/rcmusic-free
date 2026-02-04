@@ -23,14 +23,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Carlos Richter\, trumpet
-DTSTART;TZID=America/Toronto:20260309T203000
-DTEND;TZID=America/Toronto:20260309T213000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Matthew Dao\, piano
 DTSTART;TZID=America/Toronto:20260316T200000
 DTEND;TZID=America/Toronto:20260316T210000
