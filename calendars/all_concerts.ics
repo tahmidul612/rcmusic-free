@@ -31,6 +31,14 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Ilan Mendel conducts
+DTSTART;TZID=America/Toronto:20260317T200000
+DTEND;TZID=America/Toronto:20260317T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Jerry Hu\, piano
 DTSTART;TZID=America/Toronto:20260319T173000
 DTEND;TZID=America/Toronto:20260319T183000
@@ -58,14 +66,6 @@ BEGIN:VEVENT
 SUMMARY:Constance Prost\, trombone
 DTSTART;TZID=America/Toronto:20260321T200000
 DTEND;TZID=America/Toronto:20260321T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Graham Lumsden\, trumpet
-DTSTART;TZID=America/Toronto:20260322T190000
-DTEND;TZID=America/Toronto:20260322T200000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
