@@ -24,8 +24,8 @@ LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Matthew Dao\, piano
-DTSTART;TZID=America/Toronto:20260316T200000
-DTEND;TZID=America/Toronto:20260316T210000
+DTSTART;TZID=America/Toronto:20260316T170000
+DTEND;TZID=America/Toronto:20260316T180000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
