@@ -7,14 +7,6 @@ METHOD:PUBLISH
 X-WR-CALNAME:The Royal Conservatory Concerts
 X-WR-TIMEZONE:America/Toronto
 BEGIN:VEVENT
-SUMMARY:Yelin Youn\, flute
-DTSTART;TZID=America/Toronto:20260225T193000
-DTEND;TZID=America/Toronto:20260225T203000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Emma Dunbar\, viola
 DTSTART;TZID=America/Toronto:20260307T200000
 DTEND;TZID=America/Toronto:20260307T210000
