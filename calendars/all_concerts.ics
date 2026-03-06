@@ -471,6 +471,14 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Jonathan Huard\, percussion
+DTSTART;TZID=America/Toronto:20260425T200000
+DTEND;TZID=America/Toronto:20260425T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Erik Dubeau\, trumpet
 DTSTART;TZID=America/Toronto:20260426T180000
 DTEND;TZID=America/Toronto:20260426T190000
@@ -554,6 +562,14 @@ BEGIN:VEVENT
 SUMMARY:Jonathan Alter\, piano
 DTSTART;TZID=America/Toronto:20260501T173000
 DTEND;TZID=America/Toronto:20260501T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Isaac Linerode\, bassoon
+DTSTART;TZID=America/Toronto:20260502T200000
+DTEND;TZID=America/Toronto:20260502T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
