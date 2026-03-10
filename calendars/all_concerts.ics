@@ -343,14 +343,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Avery Hubert\, horn
-DTSTART;TZID=America/Toronto:20260415T200000
-DTEND;TZID=America/Toronto:20260415T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Jack Fischer\, percussion
 DTSTART;TZID=America/Toronto:20260415T200000
 DTEND;TZID=America/Toronto:20260415T210000
@@ -778,6 +770,14 @@ BEGIN:VEVENT
 SUMMARY:Honoka Shoji\, harp
 DTSTART;TZID=America/Toronto:20260512T200000
 DTEND;TZID=America/Toronto:20260512T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Avery Hubert\, horn
+DTSTART;TZID=America/Toronto:20260513T200000
+DTEND;TZID=America/Toronto:20260513T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
