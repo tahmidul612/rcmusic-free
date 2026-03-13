@@ -271,14 +271,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Julie Lin\, violin
-DTSTART;TZID=America/Toronto:20260412T173000
-DTEND;TZID=America/Toronto:20260412T183000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Luke Lee\, violin
 DTSTART;TZID=America/Toronto:20260412T200000
 DTEND;TZID=America/Toronto:20260412T210000
@@ -874,6 +866,14 @@ BEGIN:VEVENT
 SUMMARY:Nora Jane Montana\, soprano
 DTSTART;TZID=America/Toronto:20260524T173000
 DTEND;TZID=America/Toronto:20260524T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Julie Lin\, violin
+DTSTART;TZID=America/Toronto:20260524T200000
+DTEND;TZID=America/Toronto:20260524T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
