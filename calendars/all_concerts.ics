@@ -711,6 +711,14 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Temerty Theatre
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Shyler Macaggi\, viola
+DTSTART;TZID=America/Toronto:20260512T120000
+DTEND;TZID=America/Toronto:20260512T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Evita Lalonde\, double bass
 DTSTART;TZID=America/Toronto:20260512T140000
 DTEND;TZID=America/Toronto:20260512T150000
