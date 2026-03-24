@@ -695,6 +695,14 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Laurianne Paradis\, horn
+DTSTART;TZID=America/Toronto:20260511T173000
+DTEND;TZID=America/Toronto:20260511T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Emma Dunbar\, viola
 DTSTART;TZID=America/Toronto:20260511T200000
 DTEND;TZID=America/Toronto:20260511T210000
@@ -866,14 +874,6 @@ BEGIN:VEVENT
 SUMMARY:Julie Lin\, violin
 DTSTART;TZID=America/Toronto:20260524T200000
 DTEND;TZID=America/Toronto:20260524T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Laurianne Paradis\, horn
-DTSTART;TZID=America/Toronto:20260525T173000
-DTEND;TZID=America/Toronto:20260525T183000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
