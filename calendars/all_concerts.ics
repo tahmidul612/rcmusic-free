@@ -599,14 +599,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Daria Schibitcaia\, violin
-DTSTART;TZID=America/Toronto:20260507T200000
-DTEND;TZID=America/Toronto:20260507T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Daniela Carreón Herrera\, soprano
 DTSTART;TZID=America/Toronto:20260508T173000
 DTEND;TZID=America/Toronto:20260508T183000
@@ -754,6 +746,14 @@ BEGIN:VEVENT
 SUMMARY:Avery Hubert\, horn
 DTSTART;TZID=America/Toronto:20260513T200000
 DTEND;TZID=America/Toronto:20260513T210000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daria Schibitcaia\, violin
+DTSTART;TZID=America/Toronto:20260514T120000
+DTEND;TZID=America/Toronto:20260514T130000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
