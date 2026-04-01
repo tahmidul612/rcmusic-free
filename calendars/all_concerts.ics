@@ -543,14 +543,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Marie-Racquel Coneição\, mezzo-soprano
-DTSTART;TZID=America/Toronto:20260503T143000
-DTEND;TZID=America/Toronto:20260503T153000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Charlotte Chong\, harp
 DTSTART;TZID=America/Toronto:20260503T173000
 DTEND;TZID=America/Toronto:20260503T183000
@@ -834,6 +826,14 @@ BEGIN:VEVENT
 SUMMARY:Diane Kim\, violin
 DTSTART;TZID=America/Toronto:20260523T173000
 DTEND;TZID=America/Toronto:20260523T183000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marie-Racquel Coneição\, mezzo-soprano
+DTSTART;TZID=America/Toronto:20260523T200000
+DTEND;TZID=America/Toronto:20260523T210000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
