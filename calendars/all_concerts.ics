@@ -135,14 +135,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ayşe Çolak\, horn
-DTSTART;TZID=America/Toronto:20260409T120000
-DTEND;TZID=America/Toronto:20260409T130000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Temerty Theatre
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Nickolas Warwick\, violin
 DTSTART;TZID=America/Toronto:20260411T200000
 DTEND;TZID=America/Toronto:20260411T210000
@@ -218,14 +210,6 @@ BEGIN:VEVENT
 SUMMARY:Yuwa Roten\, violin
 DTSTART;TZID=America/Toronto:20260416T120000
 DTEND;TZID=America/Toronto:20260416T130000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Matthew Suh\, violin
-DTSTART;TZID=America/Toronto:20260416T143000
-DTEND;TZID=America/Toronto:20260416T153000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
