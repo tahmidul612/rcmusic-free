@@ -535,12 +535,28 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Matthew Suh\, violin
+DTSTART;TZID=America/Toronto:20260511T120000
+DTEND;TZID=America/Toronto:20260511T130000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Robyn Lianne Cheng\, viola
 DTSTART;TZID=America/Toronto:20260511T143000
 DTEND;TZID=America/Toronto:20260511T153000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ayşe Çolak\, horn
+DTSTART;TZID=America/Toronto:20260511T143000
+DTEND;TZID=America/Toronto:20260511T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Feiran Bi\, flute
