@@ -447,14 +447,6 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Temerty Theatre
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Dongyu Yao\, violin
-DTSTART;TZID=America/Toronto:20260505T200000
-DTEND;TZID=America/Toronto:20260505T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Kebin Lee\, flute
 DTSTART;TZID=America/Toronto:20260506T200000
 DTEND;TZID=America/Toronto:20260506T210000
@@ -645,6 +637,14 @@ DTEND;TZID=America/Toronto:20260514T153000
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dongyu Yao\, violin
+DTSTART;TZID=America/Toronto:20260514T160000
+DTEND;TZID=America/Toronto:20260514T170000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Temerty Theatre
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Michèle Barker\, soprano
