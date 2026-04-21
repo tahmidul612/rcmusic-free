@@ -7,38 +7,6 @@ METHOD:PUBLISH
 X-WR-CALNAME:The Royal Conservatory Concerts
 X-WR-TIMEZONE:America/Toronto
 BEGIN:VEVENT
-SUMMARY:Grace Lau\, violin
-DTSTART;TZID=America/Toronto:20260420T120000
-DTEND;TZID=America/Toronto:20260420T130000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Spencer Méndez\, bassoon
-DTSTART;TZID=America/Toronto:20260420T143000
-DTEND;TZID=America/Toronto:20260420T153000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Megan Lo\, piano
-DTSTART;TZID=America/Toronto:20260420T173000
-DTEND;TZID=America/Toronto:20260420T183000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Colin Chang\, piano
-DTSTART;TZID=America/Toronto:20260420T200000
-DTEND;TZID=America/Toronto:20260420T210000
-DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
- udent-recitals-and-community-performances
-LOCATION:Mazzoleni Hall
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bennet Huang\, cello
 DTSTART;TZID=America/Toronto:20260423T120000
 DTEND;TZID=America/Toronto:20260423T130000
@@ -64,8 +32,8 @@ LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jonathan Huard\, percussion
-DTSTART;TZID=America/Toronto:20260425T200000
-DTEND;TZID=America/Toronto:20260425T210000
+DTSTART;TZID=America/Toronto:20260425T201500
+DTEND;TZID=America/Toronto:20260425T211500
 DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
  udent-recitals-and-community-performances
 LOCATION:Temerty Theatre
