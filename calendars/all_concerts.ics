@@ -479,6 +479,14 @@ DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
 LOCATION:Mazzoleni Hall
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Bill Vu\, piano
+DTSTART;TZID=America/Toronto:20260526T143000
+DTEND;TZID=America/Toronto:20260526T153000
+DESCRIPTION:https://www.rcmusic.com/ggs/master-classes-and-performances/st
+ udent-recitals-and-community-performances
+LOCATION:Mazzoleni Hall
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sarah Leah Civera\, soprano
 DTSTART;TZID=America/Toronto:20260526T173000
 DTEND;TZID=America/Toronto:20260526T183000
