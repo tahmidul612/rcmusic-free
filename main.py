@@ -172,8 +172,12 @@ def main():
     # table_json is a list of dictionaries (each list is a row in the table)
     # Each dictionary has three keys: "Date & Time", "Location", and "Artist & Discipline"
 
-    table_json = remove_escape_chars(
-        html_to_json.convert_tables(table_html)[0])
+    converted = html_to_json.convert_tables(table_html)
+    if not converted:
+        print("Table found but contains no parseable data (may be empty).")
+        return False
+
+    table_json = remove_escape_chars(converted[0])
 
     # Create the ics file
     create_ics(table_json)
